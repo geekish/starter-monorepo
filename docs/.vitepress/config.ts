@@ -12,8 +12,8 @@ const GUIDES: DefaultTheme.NavItemWithLink[] = [
 
 const VERSIONS: (DefaultTheme.NavItemWithLink | DefaultTheme.NavItemChildren)[] = [
   { text: `v${version} (current)`, link: '/' },
-  { text: `Release Notes`, link: 'https://github.com/antfu/pkg-placeholder/releases' },
-  { text: `Contributing`, link: 'https://github.com/antfu/pkg-placeholder/blob/main/CONTRIBUTING.md' },
+  { text: `Release Notes`, link: 'https://github.com/geekish/pkg-placeholder/releases' },
+  { text: `Contributing`, link: 'https://github.com/geekish/pkg-placeholder/blob/main/CONTRIBUTING.md' },
 ]
 
 export default defineConfig({
@@ -59,7 +59,7 @@ export default defineConfig({
       ],
     },
     editLink: {
-      pattern: 'https://github.com/antfu/pkg-placeholder/edit/main/docs/:path',
+      pattern: 'https://github.com/geekish/pkg-placeholder/edit/main/docs/:path',
       text: 'Suggest changes to this page',
     },
     search: {
@@ -67,19 +67,19 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/antfu/pkg-placeholder' },
+      { icon: 'github', link: 'https://github.com/geekish/pkg-placeholder' },
     ],
 
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2025-PRESENT Anthony Fu.',
+      copyright: 'Copyright © 2025-PRESENT Hannah Chartier.',
     },
   },
 
   head: [
     // ['meta', { name: 'theme-color', content: '#ffffff' }],
     // ['link', { rel: 'icon', href: '/logo.svg', type: 'image/svg+xml' }],
-    ['meta', { name: 'author', content: 'Anthony Fu' }],
+    ['meta', { name: 'author', content: 'Hannah Chartier' }],
     // ['meta', { property: 'og:title', content: '' }],
     // ['meta', { property: 'og:image', content: '' }],
     // ['meta', { property: 'og:description', content: '_description_' }],
